@@ -1,36 +1,57 @@
 .main {
-    background: url("https://wallpaperaccess.com/full/1261638.jpg");
-    font-family: 'Times New Roman', Times, serif;
+  background: url("https://wallpaperaccess.com/full/1261638.jpg");
+  font-family: "Times New Roman", Times, serif;
 }
 
-h1,h3 {
-    text-align: center;
-    font-family:'Times New Roman', Times, serif;
+h1,
+h3 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }
 
-img{
-    position: relative; width: 150 px; height: auto; float:right; padding-right: 150 px;
+img {
+  position: relative;
+  width: 150 px;
+  height: auto;
+  float: right;
+  padding-right: 150 px;
 }
 
-h1, hr{
-    color: honeydew;
+h1,
+hr {
+  color: honeydew;
 }
 
-p{
-    font-family: 'Times New Roman', Times, serif;
+p {
+  font-family: "Times New Roman", Times, serif;
 }
 
-.bg
-{
-    background: rgba( 243, 241, 244, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 10.0px );
-    -webkit-backdrop-filter: blur( 10.0px );
-    border-radius: 5px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+.bg {
+  background: rgba(243, 241, 244, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-button
-{
-    padding: 10px;
+button {
+  padding: 10px;
+}
+
+input[type="submit"] {
+  color: darkblue;
+}
+
+input[type="reset"] {
+  color: darkcyan;
+}
+
+img {
+  border-style: groove;
+}
+
+.rick:hover {
+  color: red;
+  background-color: powderblue;
 }
