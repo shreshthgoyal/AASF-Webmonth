@@ -1,0 +1,105 @@
+body{
+    background-image: url("https://i.ibb.co/dPxMg5y/myke-simon-ats-Uq-Im3wxo-unsplash.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;    
+}
+
+.main {
+    background: rgba( 255, 255, 255, 0.65 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 3%;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+margin-left: 25%;
+margin-top: 5%;
+width: 50%;
+}
+
+
+ul{
+    list-style-type: none;
+    text-align: left;
+width: 40%;
+position:relative;
+left: 30%;
+}
+
+label {
+    text-shadow: 1px 0.2px lightsalmon;
+    font-weight: 550;
+    font-family: sans-serif;
+
+}
+
+.all{
+    border-width: 0;
+    margin-left: 46%;
+}
+
+.all:hover{
+    background-color: white;
+	color: darkred;
+    border-color: darkred;
+}
+
+
+input[type=checkbox]:checked +label.line{
+    text-decoration: line-through;
+}
+
+
+.head {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 3.5em;
+    display: flex;
+    justify-content: center;
+    opacity: 0.6;
+    background: -webkit-linear-gradient(red, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+   
+}
+
+.inputdiv{
+    display: flex;
+    justify-content: center;
+}
+
+div.list {
+    text-align: left;
+    position: relative;
+}
+
+.strike {
+    border-radius: 10%;
+    border-width: 0em;
+    display: inline-block;
+    position: relative;
+    margin-left: 5%;
+}
+
+.all , .text{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 2%; 
+    font-weight: 800;
+    transition-duration: 2s;
+
+}
+
+.head:hover{
+    opacity: 1;
+}
+
+
+
+

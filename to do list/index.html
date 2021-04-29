@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <title>🍿Watchlist</title>
+</head>
+
+<body>
+    <div class="main">
+    <div class="head" id="font">
+        <h1>Watch</h1>
+    </div>
+    <div class="text">
+        Binge-Watch Now!!! 🍿🥤
+    </div>
+    <br>
+    <div class="inputdiv">
+        <input type="text" id="input">
+        <button id="button">Enter</button>
+    </div>
+    <div class="list">
+    <ul>
+        <li><input type="checkbox" class="check" > <label for="check" class="line"> Inception</label><button class="strike" onmouseover ="removeitem()" onclick="alert('Removing this Item')">Remove</button></li>
+        <li><input type="checkbox" class="check" > <label for="check" class="line"> Shutter Island</label><button class="strike" onmouseover ="removeitem()" onclick="alert('Removing this Item')">Remove</button></li>
+        <li><input type="checkbox" class="check" > <label for="check" class="line"> Tenet </label><button class="strike" onmouseover ="removeitem()" onclick="alert('Removing this Item')">Remove</button></li>
+        <li><input type="checkbox" class="check" > <label for="check" class="line"> Interstellar </label><button class="strike" onmouseover ="removeitem()" onclick="alert('Removing this Item')">Remove</button></li>
+        <li><input type="checkbox" class="check" > <label for="check" class="line"> Shawshank redemption </label><button class="strike" onmouseover ="removeitem()" onclick="alert('Removing this Item')">Remove</button></li>
+    </ul>
+    <button class="all" onclick="rem()" id="all">Remove all</button>
+</div>
+</div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
