@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  body {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .heading {
+    font-family: "Freckle Face", cursive;
+    font-size: 60px;
+    height: 10vh;
+    cursor: pointer;
+    transition-duration: 0.8s;
+  }
+
+  .heading:hover{
+        font-size:65px;
+        color:darkred;
+  }
+  
+  .container {
+    height: 90vh;
+    width: 90%;
+    box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 20px 15px;
+    margin: 0 20px;
+  
+    overflow-y: scroll;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .card {
+    width: 350px;
+    height: 280px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  
+    padding: 20px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    animation: myanimation 1s ease;
+    transition: transform 1.5s;
+  }
+
+  .card:hover{
+     transform: scale(1.05); 
+  }
+  
+  .name,
+  .email {
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: inset 0 5px 12px 0 rgba(31, 38, 135, 0.37);
+    transition-duration: 1.5s;
+  }
+  
+  .name-content,
+  .email-content {
+    margin: 10px 0 20px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px 12px;
+    border-radius: 15px;
+  }
+
+  .name-content:hover , .email-content:hover {
+      text-decoration: underline;
+      font-size: 21px;
+  }
+  
+  .circle1,
+  .circle2, .circle3 , .circle4 {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(8px);
+    z-index: -5;
+    color: lav
+  }
+  
+  .circle1 {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    width: 600px;
+    height: 600px;
+    top: -100px;
+    left: -100px;
+  }
+  
+  .circle3 {
+    background-image: linear-gradient(120deg, #f08080 0%, #e6e6fa 100%);
+    width: 400px;
+    height: 400px;
+    top: -100px;
+    right: -100px;
+  }
+  
+  .circle2 {
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    width: 800px;
+    height: 800px;
+    bottom: -150px;
+    right: -110px;
+  }
+  .circle4 {
+    background-image: linear-gradient(120deg, #add8e6 0%, #20b2aa 100%);
+    width: 500px;
+    height: 500px;
+    bottom: -150px;
+    left: -110px;
+  }
+
+  .input{
+      border-radius: 20%;
+      border-style:ridge;
+      border-left: none;
+      border-right: none;
+      border-width: 5px;
+      width: 20em;
+  }
+
+  .check, input[type="checkbox"] {
+      margin-top: 1%;
+      cursor: pointer;
+  }
+  
+  /* for animaiton */
+  
+  @keyframes myanimation {
+    from {
+      transform: translateY(15px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
